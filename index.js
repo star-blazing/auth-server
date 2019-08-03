@@ -1,9 +1,5 @@
 'use strict';
 
-const express = require('express');
-const app = express();
-
-app.listen()
 require('dotenv').config();
 
 // Start up DB Server
