@@ -1,3 +1,4 @@
+'use strict';
 
 const express = require('express');
 const amazinRouter = express.Router();
@@ -20,4 +21,3 @@ amazinRouter.post('/endpoint', (req,res,next) => {
 //send that code to their token server
 // POST to catch the incoming token and send it to their server to get the persons info
 //receive the client info and send it to the front end
-
