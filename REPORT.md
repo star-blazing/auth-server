@@ -1,49 +1,43 @@
 # OAuth Comparative Analysis
 
-## OAuth Provider Name 
+## OAuth Provider Name: Amazon
 
-### Research Conducted By: Student Names
+### Research Conducted By: Austin Wood, Adrienne Easton, Liz Kavalski, Lee King
 
 ### Overall Score and Comments
 #### Score (Out of 10): 7
 #### General Comments
-Describe the stack (front-end only? full stack?), database, efficiency, etc. Describe the general usability and learnability
+It's ALL in the front end! Made it extremely portable to move everything to the server on the back end. Which was awesome when we figured it out but a huge pain until then as tried to make a triangle fit into a circle. 
 
 #### Pros
-* Item 1
-* Item 2
+* After we figured out that we couldn't use two different servers to use Amazon as an authorizing service things went much smoother. 
 
 #### Cons
-* Item 1
-* Item 2
+* All in the front end so all cross origin applications will have trouble later. 
 
 ### Ratings and Reviews
 #### Documentation
 Thoughts go here
 
 #### Systems Requirements
-Above and beyond 'node' and 'linux', what dependencies or core requirements exist for this framework?  Can it play at AWS/Heroku?  Does it require a certain database?
+A working web browser. AKA not IE. 
 
 #### Ramp-Up Projections
-How long would/should it take a team of mid-junior developers to become productive?
+We think that a team of junior devs could get this up and running in under a day or at most two. We got it firgured out in a few hours by stumbling around in some docs for a while with only one very clairifying question. 
 
 #### Community Support and Adoption levels
-How popular is this framework? What big companies are running on it? How is it "seen" in the general JS community?  Is there an active community of developers supporting and growing it?
+Amazon is extermely well known and trusted to a degree that we think the implementation of this would be a good move for any application that would trust OAuth. 
 
 
 ### Links and Resources
-* [framework](http://xyz.com)
-* [docs](http://xyz.com)
-* [examples/tutorials](http://xyz.com)
+* [Front/Back End](https://star-blazing-auth.herokuapp.com/)
 
 ### Code Demos
-* [live/running application](http://xyz.com)
-* [code repository](http://xyz.com)
+* [live/running application](https://star-blazing-auth.herokuapp.com/)
+
 
 ### Operating Instructions
 If someone were to download your repo (above), what steps do they need to take to run the application
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* npm i
+* nodemon to start the server
+* Click the Amazon button to get Authorization. 
